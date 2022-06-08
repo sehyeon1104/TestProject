@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
+    int a = 1;
     TextMeshProUGUI textMeshPro;
    
     [Range(0f, 100f)]
@@ -21,7 +22,13 @@ public class UI : MonoBehaviour
     }
     private void Update()
     {
-        textMeshPro.text= text;   
+        if(Input.GetMouseButtonDown(0))
+        {
+            a *= 2;
+        }    
+        textMeshPro.text= $"Áö±Ý ¼ö :{a}" ;
+
+
         textMeshPro.fontSize = tmpFontsize;
     }
     void Oh()
@@ -34,4 +41,5 @@ public class UI : MonoBehaviour
         context = "";
         text = context; 
     }
+
 }
