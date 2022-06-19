@@ -18,7 +18,7 @@ public class UI : MonoBehaviour
     public string context;
     private void Start()
     {
-       textMeshPro = GetComponent<TextMeshProUGUI>();
+        textMeshPro = GetComponent<TextMeshProUGUI>();
     }
     private void Update()
     {
