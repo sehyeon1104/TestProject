@@ -13,6 +13,8 @@ public class UI : MonoBehaviour
    public int tmpFontsize;
     [TextArea(9,10)]
     public string text;
+    [ColorUsage(true)]
+    public Color color;
     [ContextMenuItem("Chang", "Oh")]
     [ContextMenuItem("Reset", "Haeul")]
     public string context;
