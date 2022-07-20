@@ -14,7 +14,7 @@ public class UI : MonoBehaviour
     [TextArea(9,10)]
     public string text;
     [ColorUsage(true)]
-    public Color color;
+    public Color32 color;
     [ContextMenuItem("Chang", "Oh")]
     [ContextMenuItem("Reset", "Haeul")]
     public string context;
