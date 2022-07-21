@@ -20,6 +20,7 @@ public class UI : MonoBehaviour
     public string context;
     private void Start()
     {
+        textMeshPro.color = color;
         textMeshPro = GetComponent<TextMeshProUGUI>();
     }
     private void Update()
