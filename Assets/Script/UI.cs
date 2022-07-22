@@ -22,16 +22,17 @@ public class UI : MonoBehaviour
     {
         textMeshPro.color = color;
         textMeshPro = GetComponent<TextMeshProUGUI>();
+
     }
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            a *= 2;
+            a *= 4;
         }    
         textMeshPro.text= $"Áö±Ý ¼ö :{a}" ;
 
-
+        
         textMeshPro.fontSize = tmpFontsize;
     }
     void Oh()
