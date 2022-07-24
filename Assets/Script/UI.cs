@@ -15,7 +15,7 @@ public class UI : MonoBehaviour
     public string text;
     [ColorUsage(true)]
     public Color32 color;
-    [ContextMenuItem("Chang", "Oh")]
+    [ContextMenuItem("Chang", "Ohs")]
     [ContextMenuItem("Reset", "Haeul")]
     public string context;
     private void Start()
@@ -35,7 +35,7 @@ public class UI : MonoBehaviour
         
         textMeshPro.fontSize = tmpFontsize;
     }
-    void Oh()
+    void Ohs()
     {
         context = "오창현병신";
         text = context;
