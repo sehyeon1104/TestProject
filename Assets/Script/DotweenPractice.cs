@@ -7,7 +7,7 @@ public class DotweenPractice : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.DOMove(Vector3.up, 5);
+        transform.DOMove(Vector3.up, 50);
     }
 
     // Update is called once per frame
