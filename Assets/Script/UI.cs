@@ -15,7 +15,7 @@ public class UI : MonoBehaviour
     public string text;
     [ColorUsage(true)]
     public Color32 color;
-    [ContextMenuItem("Chang", "Ohs")]
+    [ContextMenuItem("Changs", "Ohs")]
     [ContextMenuItem("Reset", "Haeul")]
     public string context;
     private void Start()
