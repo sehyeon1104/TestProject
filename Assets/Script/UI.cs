@@ -10,7 +10,7 @@ public class UI : MonoBehaviour
     TextMeshProUGUI textMeshPro;
    
     [Range(0f, 100f)]
-   public int tmpFontsize;
+   public int Fontsize;
     [TextArea(9,10)]
     public string text;
     [ColorUsage(true)]
@@ -33,7 +33,7 @@ public class UI : MonoBehaviour
         textMeshPro.text= $"Áö±Ý ¼ö :{a}" ;
 
         
-        textMeshPro.fontSize = tmpFontsize;
+        textMeshPro.fontSize = Fontsize;
     }
     void Ohs()
     {
