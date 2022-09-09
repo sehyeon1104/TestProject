@@ -23,7 +23,7 @@ public class UI : MonoBehaviour
         textMeshPro.color = color;
         textMeshPro = GetComponent<TextMeshProUGUI>();
 
-    }
+    }   
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
