@@ -28,7 +28,7 @@ public class UI : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            a += 4;
+            a -= 4;
         }    
         textMeshPro.text= $"Áö±Ý ¼ö :{a}" ;
 
