@@ -9,6 +9,8 @@ public class CharacterCtrl : MonoBehaviour
     public float moveSpeed = 10f;
     Vector3 moveDirection = Vector3.zero;
     CharacterController controller;
+    
+    
     private void Start()
     {
         controller = GetComponent<CharacterController>();
