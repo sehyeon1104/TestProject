@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class gotopractice : MonoBehaviour
 {
-    int a = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int a = 9;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        if(a==10)
+        {
+            goto ex_dss;
+        }
+        goto ex_daa;
+    ex_dss:
+        print("a는 10입니다");
+
+    ex_daa:
+        print("a는 10이 아닙니다");
+
+
     }
 }
