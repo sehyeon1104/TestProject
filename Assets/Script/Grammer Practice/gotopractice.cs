@@ -14,11 +14,11 @@ public class gotopractice : MonoBehaviour
         }
         goto ex_daa;
     ex_dss:
-        print("a는 10입니다");
+        print("a는 10입니다"); // a==10일때
 
     ex_daa:
-        print("a는 10이 아닙니다");
-
+        print("a는 10이 아닙니다"); // a!=10일때
+    
 
     }
 }
