@@ -14,4 +14,8 @@ public class refPractice : MonoBehaviour
     {
         transform.position= transform.localPosition;
     }
+    ref int Add(ref int a, ref int b)
+    {
+       
+    }
 }
