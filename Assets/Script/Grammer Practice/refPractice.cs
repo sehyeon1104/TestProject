@@ -11,17 +11,15 @@ public class refPractice : MonoBehaviour
     void Start()
     {
         ref int refa = ref ReturnValue();
-        a =ReturnValue();
+
+        a=ReturnValue();
+            refa = 200;
+       
     }
     void Update()
     {
         print($"초기값 : {MainValue}");
-        print($"refa값 : {refa}");
         print($"그냥 a값 : {a}");
-      if(Input.GetKeyDown(KeyCode.S))
-        {
-            MainValue=200;
-        }
     }
     public ref int ReturnValue()
     {
