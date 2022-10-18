@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class refPractice : MonoBehaviour
 {
-    private Transform transform;
+    
+    int MainValue = 7;
+    int a;
     // Start is called before the first frame update
     void Start()
     {
-        transform = GetComponent<Transform>();
+        ref int refa = ref ReturnValue();
+        a =ReturnValue();
     }
     void Update()
     {
-        transform.position= transform.localPosition;
+        print($"초기값 : {MainValue}");
+        print($"refa값 : {refa}");
+        print($"그냥 a값 : {a}");
+      if(Input.GetKeyDown(KeyCode.S))
+        {
+            MainValue=200;
+        }
     }
-    ref int Add(ref int a, ref int b)
+    public ref int ReturnValue()
     {
-       
+        return ref MainValue;
     }
 }
