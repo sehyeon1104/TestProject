@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class refPractice : MonoBehaviour
 {
-    
+    string name = "김세현";
+    int age = 18;
     int MainValue = 7;
     int a;
     // Start is called before the first frame update
     void Start()
     {
-        ref int refa = ref ReturnValue();
-
-        a=ReturnValue();
-            refa = 200;
-       
+        sum(1, 2, 3, 4, 5, 6, 7, 7);
+        PrintData(age:age,name:name);
     }
     void Update()
     {
-        print($"초기값 : {MainValue}");
-        print($"그냥 a값 : {a}");
+       
     }
-    public ref int ReturnValue()
+    int sum(params int[] num)
     {
-        return ref MainValue;
+        
+        int sum = 0;    
+        foreach(var num2 in num)
+        {
+            sum += num2;
+        }
+        return sum;
+    }
+    void PrintData(string name, int age)
+    {
+        print($"{name}은 {age}살 입니다");
     }
 }
