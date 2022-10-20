@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class refPractice : MonoBehaviour
 {
+
     string name = "±è¼¼Çö";
     int age = 18;
     int MainValue = 7;
