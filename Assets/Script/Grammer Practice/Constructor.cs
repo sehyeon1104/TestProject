@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Constructor : MonoBehaviour
 {
-    Cat sehyeon = new Cat("¼¼Çö", "18");
-    Cat minyeong = new Cat("¹Î¿µ", "17");
     void Start()
     {
+    Cat sehyeon = new Cat("¼¼Çö", "18");
+    Cat minyeong = new Cat("¹Î¿µ", "17");
         sehyeon.Ache();
         minyeong.Ache();
     }
