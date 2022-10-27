@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_New Shader Graph
+  m_Name: DiffuseMat
   m_Shader: {fileID: -6465566751694194690, guid: a7a38ebcefcbc0a4386a5d96466cc3d8, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

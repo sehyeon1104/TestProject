@@ -159,7 +159,7 @@ Camera:
   m_GameObject: {fileID: 19360852}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.5580054, g: 0.19037023, b: 0.5849056, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -604,7 +604,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d219c223bec61654b97d28a5b3f0166b, type: 2}
+  - {fileID: 2100000, guid: 0034dfcdb6685554ba389e9d8bdc3132, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
