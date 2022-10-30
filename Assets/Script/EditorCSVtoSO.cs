@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System.IO;
+
 public class EditorCSVtoSO : MonoBehaviour
 {
     static string csvFilePath = "/Resources/monsterCSV.csv";
 
     [MenuItem("Util/CSVtoSO")]
-    public static void SetMonster()
+    public static void SetMonster() 
     {
         string[] strData = File.ReadAllLines(Application.dataPath+csvFilePath);
 
@@ -16,7 +18,7 @@ public class EditorCSVtoSO : MonoBehaviour
             string[] data = sDat.Split(',');
             MonsterSO monster = ScriptableObject. CreateInstance<MonsterSO>();  
             monster.monsterName = data[0];
-            monster.attack=int.Parse(data[1]);h
+            monster.attack=int.Parse(data[1]);
         }
     }
     void Start()
