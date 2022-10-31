@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class ShadeValue : MonoBehaviour
 {
+    [Range(0f, 1f)]
     [SerializeField]
+    float a;
     Renderer rd;
     void Start()
     {
-        rd.material.SetFloat("_Float", 1);
+        rd = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        rd.material.SetFloat("_Float", a);
     }
 }
