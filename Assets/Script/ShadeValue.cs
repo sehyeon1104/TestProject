@@ -8,7 +8,7 @@ public class ShadeValue : MonoBehaviour
     Renderer rd;
     void Start()
     {
-        rd.material.SetFloat("_Metalic", 1);
+        rd.material.SetFloat("_Float", 1);
     }
 
     // Update is called once per frame
