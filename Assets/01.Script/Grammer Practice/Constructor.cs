@@ -20,7 +20,7 @@ public class Constructor : MonoBehaviour
 }
 class Cat : MonoBehaviour
     {
-    string name;
+     //string name;
     string age;
   public Cat(string _name, string _age)
     {
