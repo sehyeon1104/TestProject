@@ -1,21 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShadeValue : MonoBehaviour
 {
     [Range(0f, 1f)]
     [SerializeField]
-    float a;
-    Renderer rd;
+    float changeValue;
+    Renderer renderer;
     void Start()
     {
-        rd = GetComponent<Renderer>();
+        renderer = GetComponent<Renderer>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        rd.material.SetFloat("_Float", a);
+        renderer.material.SetFloat("_Float", changeValue);
     }
 }

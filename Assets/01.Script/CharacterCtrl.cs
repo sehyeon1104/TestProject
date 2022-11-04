@@ -36,7 +36,7 @@ public class CharacterCtrl : MonoBehaviour
             {
                 hit.transform.GetComponent<MeshRenderer>().material.color = Color.red;
                 Item a = hit.transform.GetComponent<Item>();
-                a.OnRay();
+                //a.OnRay();
             }
         }
     }
