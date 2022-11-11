@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BDu
-  m_Shader: {fileID: -6465566751694194690, guid: a7a38ebcefcbc0a4386a5d96466cc3d8, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 51d6cf39c02d9e146a8b4484f510ebea, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
