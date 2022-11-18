@@ -85,8 +85,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6aacd9f9d331457eae819257b8ba81b6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: ec03f79379868c642b48ae5ddc821b6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7e0471892efe47ad8b2528198d956d92_Texture_1:
         m_Texture: {fileID: 2800000, guid: 6ebbcd494d612724ca76c9dd5d82f4af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f028efd937ec4426bf65a86de891be8c_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 70632ddfe8e71b04b8f90ef7e29a9e98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -124,7 +132,7 @@ Material:
     - _DstBlend: 0
     - _EnableExternalAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 0.22
+    - _Float: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -145,6 +153,7 @@ Material:
     - _UVSec: 0
     - _WorkflowMode: 0
     - _ZWrite: 1
+    - _multiply: 2.69
     m_Colors:
     - _BaseColor: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 1}
     - _Color: {r: 1, g: 0.030962424, b: 0.0039215684, a: 1}
@@ -152,5 +161,6 @@ Material:
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Vector3: {r: 0, g: 0.75, b: 0, a: 0}
+    - _Vector3: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector3_1: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
