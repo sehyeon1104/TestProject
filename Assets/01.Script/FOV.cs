@@ -17,6 +17,6 @@ public class FOV : MonoBehaviour
     }
     void Update()
     {
-    Vector3 dot =Vector3.Dot(transform.forward)
+    
     }
 }
