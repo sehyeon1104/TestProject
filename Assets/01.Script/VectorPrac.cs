@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class VectorPrac : MonoBehaviour
 {
+    
     float speed = 10f;
     float dot,angle;
     
@@ -14,10 +15,11 @@ public class VectorPrac : MonoBehaviour
     }
     void Update()
     {
+        
         cubeTrans.eulerAngles =new Vector3(0, Time.time*speed, 0);
-        dot = Vector3.Dot(Vector3.forward, cubeTrans.forward);
+        dot = Vector3.Dot((Vector3.forward*5).normalized, cubeTrans.forward);
         angle = Mathf.Acos(dot)*Mathf.Rad2Deg;
-        print($"내적 값 : {angle} 회전 : {cubeTrans.localEulerAngles}");
+        print($"내적 값 : {dot} 회전 : {cubeTrans.localEulerAngles}");
 
     }
 }
