@@ -8,4 +8,5 @@ public class Click : MonoBehaviour
     {
         SceneManager.LoadScene("RegisterUser");
     }
+    
 }
