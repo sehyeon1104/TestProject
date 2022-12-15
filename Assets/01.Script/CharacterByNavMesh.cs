@@ -21,14 +21,14 @@ public class CharacterByNavMesh : MonoBehaviour
 
     void Update()
     {
-        RaycastHit hit;
+        RaycastHit hits;
         flagOnGrounded = characterController.isGrounded;
 
         if(Input.GetMouseButton(0))
         {
-           if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, layerGround))
+           if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hits, layerGround))
             {
-                agent.SetDestination(hit.point);
+                agent.SetDestination(hits.point);
             }
         }
         if(agent.remainingDistance>agent.stoppingDistance)
